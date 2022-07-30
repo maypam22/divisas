@@ -41,4 +41,9 @@ public class convertir {
     public void setDiv1(int div1) {
         this.div1 = div1;
     }
+
+    public double conversor(){
+
+        return ;
+    }
 }
