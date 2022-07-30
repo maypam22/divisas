@@ -88,6 +88,10 @@ public class convertir {
         else if(div == 2 && div1 == 0){
             resultado = moneda * 0.048;
         }
+        //peso mexicano a dolar
+        else if(div == 2 && div1 == 1){
+            resultado = moneda * 0.049;
+        }
 
         return resultado;
     }
