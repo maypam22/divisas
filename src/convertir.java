@@ -7,7 +7,7 @@ public class convertir {
     private int div;
     private int div1;
 
-    private double moneda1;
+
 
     public convertir() {
     }

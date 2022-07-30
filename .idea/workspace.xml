@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d82ac950-27db-4c59-8d9a-ecf5e9c82921" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/convertir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/divisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divisas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +28,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pamelibiris/OneDrive - Escuela Politécnica Nacional/Documentos/JAVA/divisas&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Pamelibiris/Downloads/divisas"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="divisas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="divisas" />
@@ -66,7 +64,7 @@
       <workItem from="1658962894796" duration="704000" />
       <workItem from="1659145745067" duration="901000" />
       <workItem from="1659215315646" duration="2126000" />
-      <workItem from="1659220049758" duration="1593000" />
+      <workItem from="1659220049758" duration="1914000" />
     </task>
     <servers />
   </component>
