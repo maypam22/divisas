@@ -43,7 +43,10 @@ public class convertir {
     }
 
     public double conversor(){
+        if(div == 0 && div1 == 0){
+            resultado = moneda * 0.98;
+        }
 
-        return ;
+        return resultado;
     }
 }

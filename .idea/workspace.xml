@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d82ac950-27db-4c59-8d9a-ecf5e9c82921" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/divisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divisas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convertir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertir.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
