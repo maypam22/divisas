@@ -100,6 +100,10 @@ public class convertir {
         else if(div == 2 && div1 == 3){
             resultado = moneda * 218.30;
         }
+        //peso mexicano a soles
+        else if(div == 2 && div1 == 4){
+            resultado = moneda * 0.19;
+        }
 
         return resultado;
     }
