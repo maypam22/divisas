@@ -124,6 +124,11 @@ public class convertir {
         else if(div == 3 && div1 == 3){
             resultado = moneda;
         }
+        //peso colombiano a soles
+        else if(div == 3 && div1 == 4){
+            resultado = moneda * 0.00088;
+        }
+        
 
         return resultado;
     }
