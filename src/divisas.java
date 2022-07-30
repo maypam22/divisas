@@ -16,7 +16,8 @@ public class divisas extends JFrame {
         limpiar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                divisa.setText("");
+                divisafinal.setText("");
             }
         });
     }
