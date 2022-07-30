@@ -13,5 +13,11 @@ public class divisas extends JFrame {
 
     public divisas() {
 
+        limpiar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 }
