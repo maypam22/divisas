@@ -80,6 +80,10 @@ public class convertir {
         else if(div == 1 && div1 == 3){
             resultado = moneda * 4567.66;
         }
+        //euro a soles
+        else if(div == 1 && div1 == 4){
+            resultado = moneda * 4;
+        }
 
         return resultado;
     }
