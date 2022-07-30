@@ -128,7 +128,11 @@ public class convertir {
         else if(div == 3 && div1 == 4){
             resultado = moneda * 0.00088;
         }
-        
+
+        //soles a euros
+        else if(div == 4 && div1 == 0){
+            resultado = moneda * 0.25;
+        }
 
         return resultado;
     }
