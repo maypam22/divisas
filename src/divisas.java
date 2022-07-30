@@ -12,6 +12,30 @@ public class divisas extends JFrame {
     private JButton limpiar;
 
     public divisas() {
+        setTitle("CONVERSOR");
+        setSize(500, 300);
+        setContentPane(mainPanel);
+
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setVisible(true);
+        
+        convertir.addActionListener(new ActionListener() {
+            
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                double moneda = Double.parseDouble(divisa.getText());
+                int div = combo1.getSelectedIndex();
+                int div1 = combo2.getSelectedIndex();
+                     convertir conexion = new convertir();
+
+                conexion.setMoneda(moneda);
+                conexion.setDiv(div);
+                conexion.setDiv1(div1);
+                conexion.convesor();
+
+                divisafinal.setText(String.valueOf(conexion.getResultado()));
+            }
+        });
 
         limpiar.addActionListener(new ActionListener() {
             @Override
