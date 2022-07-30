@@ -105,6 +105,11 @@ public class convertir {
             resultado = moneda * 0.19;
         }
 
+        //peso colombiano a euro
+        else if(div == 3 && div1 == 0){
+            resultado = moneda * 0.00022;
+        }
+
         return resultado;
     }
 }
