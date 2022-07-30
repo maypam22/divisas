@@ -92,6 +92,11 @@ public class convertir {
         else if(div == 2 && div1 == 1){
             resultado = moneda * 0.049;
         }
+        //peso mexicano a peso mexicano
+        else if(div == 2 && div1 == 2){
+            resultado = moneda;
+        }
+        //
 
         return resultado;
     }
