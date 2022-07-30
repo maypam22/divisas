@@ -76,6 +76,10 @@ public class convertir {
         else if(div == 1 && div1 == 2){
             resultado = moneda * 20.91;
         }
+        //euro a pesos colombianos
+        else if(div == 1 && div1 == 3){
+            resultado = moneda * 4567.66;
+        }
 
         return resultado;
     }
