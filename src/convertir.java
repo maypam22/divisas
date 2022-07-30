@@ -109,6 +109,10 @@ public class convertir {
         else if(div == 3 && div1 == 0){
             resultado = moneda * 0.00022;
         }
+        //peso colombiano a dolar
+        else if(div == 3 && div1 == 1){
+            resultado = moneda * 0.00022;
+        }
 
         return resultado;
     }
