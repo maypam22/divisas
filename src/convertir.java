@@ -84,6 +84,10 @@ public class convertir {
         else if(div == 1 && div1 == 4){
             resultado = moneda * 4;
         }
+        //peso mexicano a euro
+        else if(div == 2 && div1 == 0){
+            resultado = moneda * 0.048;
+        }
 
         return resultado;
     }
