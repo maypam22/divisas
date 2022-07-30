@@ -25,3 +25,10 @@ cuenta con un comentario indicando las monedas que se estan transformando.
 
 ![img_2.png](img_2.png)
 
+4.Colocamos sus medidas con el respectivo titulo
+![image](https://user-images.githubusercontent.com/85316345/182002081-f9f51519-5fc7-43fe-ad94-6b5b9f4b63a5.png)
+
+5. Colocamos los respectivos "create listener" del boton:convertir
+![image](https://user-images.githubusercontent.com/85316345/182002100-b39014c7-997d-446e-81bc-4bde54909e07.png)
+
+
