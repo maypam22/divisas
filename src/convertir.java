@@ -43,20 +43,30 @@ public class convertir {
     }
 
     public double conversor(){
+        //dolar a euro
         if(div == 0 && div1 == 0){
             resultado = moneda * 0.98;
         }
+        //dolar a dolar
         else if(div == 0 && div1 == 1){
             resultado = moneda;
         }
+        //dolar a peso mexicanos
         else if(div == 0 && div1 == 2){
             resultado = moneda * 20.46;
         }
+        //dolar a pesos colombianos
         else if(div == 0 && div1 == 3){
             resultado = moneda * 4467.80;
         }
+        //dolar a soles
         else if(div == 0 && div1 == 4){
             resultado = moneda * 3.92;
+        }
+
+        //euro a euro
+        else if(div == 1 && div1 == 0){
+            resultado = moneda;
         }
 
         return resultado;
