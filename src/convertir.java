@@ -7,7 +7,6 @@ public class convertir {
     private int div;
     private int div1;
 
-
-
-
+    public convertir() {
+    }
 }
