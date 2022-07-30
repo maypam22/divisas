@@ -129,9 +129,13 @@ public class convertir {
             resultado = moneda * 0.00088;
         }
 
-        //soles a euros
+        //soles a euro
         else if(div == 4 && div1 == 0){
             resultado = moneda * 0.25;
+        }
+        //soles a dolar
+        else if(div == 4 && div1 == 1){
+            resultado = moneda * 0.26;
         }
 
         return resultado;
