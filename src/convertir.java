@@ -68,6 +68,14 @@ public class convertir {
         else if(div == 1 && div1 == 0){
             resultado = moneda;
         }
+        //euro a dolar
+        else if(div == 1 && div1 == 1){
+            resultado = moneda * 1.02;
+        }
+        //euro a pesos mexicanos
+        else if(div == 1 && div1 == 2){
+            resultado = moneda * 20.91;
+        }
 
         return resultado;
     }
