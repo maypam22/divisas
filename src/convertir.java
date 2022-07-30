@@ -141,6 +141,10 @@ public class convertir {
         else if(div == 4 && div1 == 2){
             resultado = moneda * 5.22;
         }
+        //soles a peso colombiano
+        else if(div == 4 && div1 == 3){
+            resultado = moneda * 1141.47;
+        }
 
         return resultado;
     }
