@@ -137,6 +137,10 @@ public class convertir {
         else if(div == 4 && div1 == 1){
             resultado = moneda * 0.26;
         }
+        //soles a peso mexicano
+        else if(div == 4 && div1 == 2){
+            resultado = moneda * 5.22;
+        }
 
         return resultado;
     }
