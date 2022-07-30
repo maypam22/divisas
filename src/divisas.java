@@ -18,6 +18,13 @@ public class divisas extends JFrame {
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+        
+        convertir.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                double moneda = Double.parseDouble(divisa.getText());
+                int div = combo1.getSelectedIndex();
+                int div1 = combo2.getSelectedIndex();
 
         limpiar.addActionListener(new ActionListener() {
             @Override
