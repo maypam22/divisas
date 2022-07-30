@@ -117,6 +117,13 @@ public class convertir {
         else if(div == 3 && div1 == 2){
             resultado = moneda * 0.0046;
         }
+        else if(div == 3 && div1 == 3){
+            resultado = moneda;
+        }
+        //peso colombiano a peso colombiano
+        else if(div == 3 && div1 == 3){
+            resultado = moneda;
+        }
 
         return resultado;
     }
