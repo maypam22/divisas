@@ -55,6 +55,9 @@ public class convertir {
         else if(div == 0 && div1 == 3){
             resultado = moneda * 4467.80;
         }
+        else if(div == 0 && div1 == 4){
+            resultado = moneda * 3.92;
+        }
 
         return resultado;
     }
