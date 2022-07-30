@@ -7,6 +7,8 @@ public class convertir {
     private int div;
     private int div1;
 
+    private double moneda1;
+
     public convertir() {
     }
 
@@ -43,6 +45,7 @@ public class convertir {
     }
 
     public double conversor(){
+
         //dolar a euro
         if(div == 0 && div1 == 0){
             resultado = moneda * 0.98;

@@ -29,6 +29,7 @@ public class divisas extends JFrame {
                      convertir conexion = new convertir();
 
                 conexion.setMoneda(moneda);
+
                 conexion.setDiv(div);
                 conexion.setDiv1(div1);
                 conexion.conversor();
