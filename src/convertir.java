@@ -49,6 +49,9 @@ public class convertir {
         else if(div == 0 && div1 == 1){
             resultado = moneda;
         }
+        else if(div == 0 && div1 == 2){
+            resultado = moneda * 20.46;
+        }
 
         return resultado;
     }
