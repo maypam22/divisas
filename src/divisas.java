@@ -12,6 +12,12 @@ public class divisas extends JFrame {
     private JButton limpiar;
 
     public divisas() {
+        setTitle("CONVERSOR");
+        setSize(500, 300);
+        setContentPane(mainPanel);
+
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setVisible(true);
 
         limpiar.addActionListener(new ActionListener() {
             @Override
