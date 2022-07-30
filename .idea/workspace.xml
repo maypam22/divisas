@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d82ac950-27db-4c59-8d9a-ecf5e9c82921" name="Changes" comment="" />
+    <list default="true" id="d82ac950-27db-4c59-8d9a-ecf5e9c82921" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divisas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +65,7 @@
       <workItem from="1658962894796" duration="704000" />
       <workItem from="1659145745067" duration="901000" />
       <workItem from="1659215315646" duration="2126000" />
+      <workItem from="1659220049758" duration="339000" />
     </task>
     <servers />
   </component>

@@ -31,7 +31,7 @@ public class divisas extends JFrame {
                 conexion.setMoneda(moneda);
                 conexion.setDiv(div);
                 conexion.setDiv1(div1);
-                conexion.convesor();
+                conexion.conversor();
 
                 divisafinal.setText(String.valueOf(conexion.getResultado()));
             }
@@ -44,5 +44,10 @@ public class divisas extends JFrame {
                 divisafinal.setText("");
             }
         });
+
+    }
+    public static void main(String[] args) {
+        divisas divisa1 = new divisas();
+
     }
 }

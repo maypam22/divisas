@@ -32,3 +32,5 @@ cuenta con un comentario indicando las monedas que se estan transformando.
 ![image](https://user-images.githubusercontent.com/85316345/182002100-b39014c7-997d-446e-81bc-4bde54909e07.png)
 
 
+6. Ejecución del programa 
+
