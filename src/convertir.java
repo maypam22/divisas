@@ -113,6 +113,10 @@ public class convertir {
         else if(div == 3 && div1 == 1){
             resultado = moneda * 0.00022;
         }
+        //peso colombiano a peso mexicano
+        else if(div == 3 && div1 == 2){
+            resultado = moneda * 0.0046;
+        }
 
         return resultado;
     }
