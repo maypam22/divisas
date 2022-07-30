@@ -145,6 +145,10 @@ public class convertir {
         else if(div == 4 && div1 == 3){
             resultado = moneda * 1141.47;
         }
+        //soles a soles
+        else if(div == 4 && div1 == 4){
+            resultado = moneda ;
+        }
 
         return resultado;
     }
