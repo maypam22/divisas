@@ -46,6 +46,9 @@ public class convertir {
         if(div == 0 && div1 == 0){
             resultado = moneda * 0.98;
         }
+        else if(div == 0 && div1 == 1){
+            resultado = moneda;
+        }
 
         return resultado;
     }
