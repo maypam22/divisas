@@ -24,7 +24,11 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <editable value="false"/>
+          <font size="20" style="1"/>
+          <foreground color="-15259205"/>
+        </properties>
       </component>
       <component id="5dbec" class="javax.swing.JComboBox" binding="combo2">
         <constraints>
