@@ -34,3 +34,7 @@ cuenta con un comentario indicando las monedas que se estan transformando.
 
 6. Ejecución del programa 
 
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
+
